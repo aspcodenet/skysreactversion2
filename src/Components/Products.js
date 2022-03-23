@@ -7,12 +7,14 @@ export const Products = () => {
     const [products, setProducts] = useState([])
 
     useEffect(()=>{
-        const fetchData = async()=>{
-            const result = await fetchProducts()
-            setProducts(result)
-          }
-          fetchData()
-         },
+        fetchProducts().then( result => setProducts(result) )
+        // const fetchData = async()=>{
+        //     const result = await fetchProducts()
+        //     setProducts(result)
+        //   }
+        //   fetchData()
+         }
+        ,
     []);
 
   return (
