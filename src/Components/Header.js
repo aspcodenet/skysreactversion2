@@ -6,13 +6,13 @@ export const Header = (props) => {
     <header className="siteheader">
         <div className="logo">
             <i className='bx bxs-cat logoicon'></i>
-            Cat<span className="logopart2">Lovers</span>                
+            Stefans<span className="logopart2">CloudGame</span>                
         </div>
         <nav>
             <ul className="navmenu">
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Home"  />
-                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Services"  />
-                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Products"/>
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Game"  />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Stats"/>
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="About" />
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Contact" />
             </ul>

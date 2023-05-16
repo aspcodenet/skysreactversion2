@@ -5,10 +5,10 @@ export const Home = () => {
     <section className="home" id="home">
 
     <div className="content">
-        <h1>Bästa kattbloggen</h1>
-        <h2>Bli medlem idag!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere, asperiores quam dolore!</p>
-        <a className="ctabutton" href="#">Köp nu!</a>
+        <h1>Sten Sax eller Påse</h1>
+        <h2>Blir det roligare än så?</h2>
+        <p>Fantastisk Clouddrivet spel som körs i</p>
+        <a className="ctabutton" href="https://systementor.se/utbildningar/kubernetes">KUBERNETES</a>
     </div>
 
 </section>  )

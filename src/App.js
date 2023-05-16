@@ -17,7 +17,7 @@ function App() {
 
 
   //const activePage = 'Home'
-  const [activePage, setActivePage] = useState('Services');
+  const [activePage, setActivePage] = useState('Home');
   //const arrayen = useState('Home'); //2 items
   //arrayen[0]          
   //arrayen[1]   function       
@@ -28,8 +28,6 @@ function App() {
 
   return (
     <div>
-      <button onClick={()=>onChangeActivePage('Home')}>Home</button>
-      <button onClick={()=>onChangeActivePage('Services')}>Services</button>
       <Header activePage={activePage} onChangeActivePage={onChangeActivePage} />
       <Main activePage={activePage}/>
       <Footer />

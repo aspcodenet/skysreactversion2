@@ -102,7 +102,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../public/images/0x0.jpg) no-repeat;
+    background: url(../public/images/cloud.webp) no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
