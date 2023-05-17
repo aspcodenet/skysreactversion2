@@ -38,7 +38,7 @@ export const Game = () => {
         }
         { activeAction == "Sending" &&
             <div>
-            <h1 style="margin-bottom:0px;">Your choice:</h1>
+            <h1 >Your choice:</h1>
             <a className="ctabutton" href="#">{selected}</a>
             <h1>Computer selected</h1>
             <br/>
