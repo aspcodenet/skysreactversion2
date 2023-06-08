@@ -5,7 +5,7 @@ export const Stats = () => {
     const [vunna, setVunna] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/stats`)
+        fetch( window.appEnv.REACT_APP_BACKEND_URL + `/api/stats`)
         .then((response) => 
         response.json().then(j=>{
             setAntal(j.totalGames)

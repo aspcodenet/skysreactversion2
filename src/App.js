@@ -6,8 +6,6 @@ import { Footer } from './Components/Footer';
 import {useState} from 'react';
 
 function App() {
-
-
   //const numbers = [12, 92, 3]
 
   // let firstNumber = numbers[0]

@@ -17,7 +17,7 @@ export const Game = () => {
         setSelected(sel)
         setActiveAction('Sending')
         let id = sel.toUpperCase()                
-        const data = await (await fetch(`http://localhost:8080/api/play?yourSelection=${id}`)).json()
+        const data = await (await fetch( window.appEnv.REACT_APP_BACKEND_URL +  `/api/play?yourSelection=${id}`)).json()
         //setResultat(data)
         console.log(data.computerSelection)
         setComputerSelection(data.computerSelection)
